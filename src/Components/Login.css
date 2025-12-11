@@ -1,0 +1,78 @@
+.login-page{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url('../Images/Fruitsback3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login-form{
+    width: 320px;
+    background-color: rgb(43, 97, 179);
+    border-radius: 20px;
+    padding: 40px 50px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.login-form h1{
+    color: cornflowerblue;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.login-form input{
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 12px 15px;
+    cursor: pointer;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.login-form input:focus{
+    background-color: rgb(70, 128, 236);
+    box-shadow: 0 0 8px rgba(43, 122, 46, 0.3);
+}
+
+
+.login-button1, .login-button2{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.login-button1{
+background-color: #2b7a2e;
+color: white;
+margin-bottom: 10px;
+}
+.login-button1:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.login-button2{
+    background-color: transparent;
+    color: #2b7a2e;
+    border: 1.5 solid #2b7a2e;
+}
+.login-button2:hover{
+    background-color: #2b7a2e;
+    color: white;
+    transform: translateY(-2px);
+}

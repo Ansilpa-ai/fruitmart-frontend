@@ -1,0 +1,179 @@
+.page{
+    padding: 30px;
+    font-family: "Poppins",sans-serif;
+    background-color: #f6f6f6;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    color: #0a7a0a;
+}
+
+.header h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.cart-link{
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.cart-link:hover{
+    text-decoration: underline;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+    gap: 25px;
+}
+.product-card{
+    background: white;
+    border-radius: 15px;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+.product-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+.product-img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.product-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.product-price{
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 15px;
+}
+.qty{
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 15px;
+}
+.add-btn{
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.add-btn:hover{
+    background: #218838;
+}
+
+.kg-selector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 10px 0;
+}
+
+.kg-btn{
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #0a7a0a;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.kg-selector span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user-navbar{
+    width: 100%;
+    height: 70px;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #054a05;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+.nav-links li {
+color: white;
+text-decoration: none;
+font-size: 18px;
+transition: 0.3s;
+}
+
+.nav-links li:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-name{
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: #0a7a0a;
+    font-size: 20px;
+}
+
+.logout-btn{
+    background: #d60000;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.logout-btn:hover{
+    background: #b10000;
+}

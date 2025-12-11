@@ -1,0 +1,27 @@
+.admin-dashboard{
+  padding: 20px;
+}
+
+.dashboard-cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+.dash-card{
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.dash-card h2{
+    margin: 0;
+    font-size: 36px;
+}
+
+.dash-card-low-stock{
+  background: #ffe8e8;
+  border-left: 5px solid red;
+}
