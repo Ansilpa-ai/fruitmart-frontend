@@ -12,7 +12,7 @@ export default function Userview(){
 
   useEffect(()=>{
     
-    axios.get(`${import.meta.env.VITE_API_URL}/viewproduct`)
+    axios.get(`${import.meta.env.VITE_API_URL}/user/viewproduct`)
     .then((res)=>{
       setProduct(res.data)
 

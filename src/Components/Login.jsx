@@ -19,7 +19,7 @@ import '../Components/Login.css'
   const handleSubmit = (e) =>{
     e.preventDefault()
     try{
-     axios.post(`${import.meta.env.VITE_API_URL}/login`,state)
+     axios.post(`${import.meta.env.VITE_API_URL}/user/login`,state)
      .then((res)=>{
       const response = res.data
       alert(response.msg)

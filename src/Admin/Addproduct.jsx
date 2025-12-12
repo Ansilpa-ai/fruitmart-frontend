@@ -33,7 +33,7 @@ export default function Addproduct(){
         }
         formdata.append("category",category)
         
-          axios.post(`${import.meta.env.VITE_API_URL}/addproduct`,formdata,
+          axios.post(`${import.meta.env.VITE_API_URL}/user/addproduct`,formdata,
             {headers:{"Content-Type":"multipart/form-data"}})
             .then((res)=>{
                 alert(res.data)
