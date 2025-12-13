@@ -19,7 +19,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const apiUrl = `${import.meta.env.VITE_API_URL}/user/login`;
+    const apiUrl = "https://fruitmart-backend.onrender.com/user/login";
     console.log("LOGIN API URL:", apiUrl);
 
     try {
