@@ -23,7 +23,7 @@ export default function Login() {
     console.log("LOGIN API URL:", apiUrl);
 
     try {
-      const res = await axios.post(apiUrl, state);
+      const res = await axios.post("https://fruitmart-backend.onrender.com/user/login", state);
 
       console.log("STATUS:", res.status);
       console.log("DATA:", res.data);
